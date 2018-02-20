@@ -1,0 +1,66 @@
+/* add your CSS here */
+*{
+	font-family: Arial, Helvetica;
+}
+
+#fact{
+	font-style: italic;
+}
+
+.item{
+	font-weight: bold;
+}
+
+ul{
+	list-style: none;
+	text-align: left;
+	padding: 0;
+}
+
+#main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 330px;
+	border: solid 2px #383838;
+	padding: 0.5em 1em 0.5em 1em;
+	box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4);
+	height: 500px;
+	border-radius: 18px;
+	background-image: url("leaves-bg.png");
+	background-size: cover;
+
+}
+
+#sub{
+	border: solid 2px #383838;
+	padding: 0em 1em 0.5em 1em;
+	background-color: #E9FFC2;
+	border-radius: 18px;
+	font-size: 0.7em;
+	color: #333;
+	height: 180px;
+	width: 305px;
+	
+}
+
+img{
+	width: 330px;
+	margin-bottom: 0.8em;
+	border-radius: 18px;
+	border: solid 2px #383838;
+}
+
+#heading-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	width: 330px;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 6px;
+	color: #70AA09;
+	margin-bottom: 1em;
+	border: solid 2px #383838;
+}
